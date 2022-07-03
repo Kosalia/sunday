@@ -1,26 +1,64 @@
+
+* {
+    box-sizing: border-box;
+  }
+
 li {
-    display: inline;
-    /*float: right-inline;*/
+    /*display: inline;
+    float: right-inline;*/
     flex-direction: row;
     display:inline-flexbox;
-    justify-content:space-around ;
-    margin: 40px;
+    justify-content:space-between ;
+    margin: 0px 30px ;
+    padding: 5px;
     font-style: #00e0d0;
     font-family: 'Roboto', sans-serif;
-    box-sizing: inherit
-    ;
+    
+    
     
     
 
 }
 
-ul {
+
+#navbar {
+    display: flex;
+
+}
+
+a{ 
+    color: white;
+
+}
+
+.navitems{
+
+    display: flex; 
+    padding: 10px;
+
+
+
+
+}
+/*ul {
     text-align: start;
     align-content: flex-start;
     position: absolute;
     top:0%;
     justify-content: space-around;
     font-size: 10px;
+    color: white;
+    
+    
+  }*/
+
+  #navbarHero {
+    background-image: url(./Images/bgk-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:40%;
     
   }
   #trees{
@@ -29,6 +67,12 @@ ul {
     top: -70px;
     background-size: cover;
 
+  }
+
+  #logotop{
+
+    color:#00e0d0;
+    display: flex;
   }
   .container{
     margin: 0 auto;
